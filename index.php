@@ -39,7 +39,7 @@
                     <input type="text" class="done" readonly value="<?php echo $task['task']; ?>">
                     <div class="actions">
                       <button class="edit"><span class="icon-pencil"></span></button>
-                      <button class="delete"><span class="icon-bin"></span></button>
+                      <a href='<?php echo 'Delete.php?id='.$task['id']; ?>' class="delete"><span class="icon-bin"></span></a>
                     </div>
                   </form>
                   </div>
